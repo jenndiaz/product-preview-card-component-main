@@ -19,13 +19,41 @@
 .text-box{
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding: 30px;
 }
 .title-text{
   font-family: 'Merriweather', serif;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 30px;
+  margin: 0;
 }
 .description-text{
   font-family: 'Roboto', sans-serif;
+  color: #71727d;
+  letter-spacing: 0.05em;
+}
+.spaced-text{
+  letter-spacing: 0.5em;
+  font-weight: 100;
+}
+.price{
+  color: #3f8269;
+}
+.original-price{
+  text-decoration: line-through;
+}
+.pricing-breakdown{
+  display: flex;
+  gap: 20px;
+}
+.cart-button{
+  background:  #3f8269;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
