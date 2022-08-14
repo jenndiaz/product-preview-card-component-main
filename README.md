@@ -11,15 +11,10 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
 
 ## Overview
 
 ### The challenge
-
-IN DEVELOPMENT
 
 Users should be able to:
 
@@ -32,6 +27,7 @@ coming soon!
 
 ### Links
 
+coming soon!
 
 ## My process
 
@@ -43,19 +39,24 @@ coming soon!
 
 ### What I learned
 
-I will use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This project was an overview of many topics which I learned previously but have not worked with in a while. Two concepts I reviewed while completing the challenge were CSS media queries and the css property `object-fit`. 
 
-### Continued development
+## CSS Media Queries
+
+Learn More: 
+[CSS-Tricks: A Complete Guiade to CSS Media Queries](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
+
+## `object-fit`
+
+`object-fit` is a CSS property, it sets how the context should resize to fit with in it's container. Property is specified using the values; `contain`, `cover`, `fill`, `none`, and `scale down`. In this project I use `object-fit: cover;` with in my `max-width: 375px` breakpoint for the `product-image` class. This allows the product picture for maintain is aspect ratio when fitting the container. So when the user views the image on smaller screen the image is clipped instead of not filling the container or streching the image. 
 
 
-### Useful resources
+Learn More:
+[MDN object-fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit) 
 
 
-## Author
-
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 
 
-## Acknowledgments
+
 
 
