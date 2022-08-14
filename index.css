@@ -12,6 +12,7 @@
   background-color: white;
   width: 600px;
   display: flex;
+  font-size: 14px;
 }
 .image-box{
   display: flex;
