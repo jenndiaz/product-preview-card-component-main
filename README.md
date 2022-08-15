@@ -1,16 +1,6 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). 
 
 ## Overview
 
@@ -20,14 +10,12 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
+- Styled to be responsive on 375px screens and 1440px screens 
 
-### Screenshot
 
-coming soon!
+### View Solution 
 
-### Links
-
-coming soon!
+[Github Page](https://github.com/jenndiaz/product-preview-card-component-main)
 
 ## My process
 
@@ -43,7 +31,12 @@ This project was an overview of many topics which I learned previously but have 
 
 ## CSS Media Queries
 
+In this project I used media queries to make the project mobile responsive. They can also be used to target screen resolution, for printing, device orientation, and operating style preferences. Most commonly used within CSS, they are composed of an optional media type, media features, and logical operators. 
+
 Learn More: 
+
+[MDN: using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+
 [CSS-Tricks: A Complete Guiade to CSS Media Queries](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
 
 ## `object-fit`
@@ -52,6 +45,7 @@ Learn More:
 
 
 Learn More:
+
 [MDN object-fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit) 
 
 
